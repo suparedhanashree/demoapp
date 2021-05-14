@@ -1,3 +1,4 @@
+
 .container {
   min-height: 100vh;
   padding: 0 0.5rem;
@@ -24,6 +25,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 16px!important;
+  color: #fff!important;
+  background-color: #333!important;
+  
+
 }
 
 .footer a {
@@ -112,7 +118,27 @@
   height: 1em;
   margin-left: 0.5rem;
 }
+.row {
+    margin:20px
+  }
+  
 
+  .hide.ant-menu-submenu-arrow::before, .ant-menu-submenu-arrow::after {
+    position: absolute;
+    width: 6px;
+    height: 1.5px;
+    border-radius: 2px;
+    -webkit-transition: background 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), top 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), color 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), -webkit-transform 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: background 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), top 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), color 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), -webkit-transform 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: background 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), transform 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), top 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), color 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: background 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), transform 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), top 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), color 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), -webkit-transform 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    content: '';
+}
+  .ant-table-content {
+    background-color: rgb(127, 127, 127);
+    color: rgb(127, 127, 127);
+    border: solid 2px #000!important;
+   }
 @media (max-width: 600px) {
   .grid {
     width: 100%;
