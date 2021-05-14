@@ -35,7 +35,7 @@ export default function Form() {
         title: 'Action',
         dataIndex: 'Action',
         render: (_, record) =>
-              <Menu  style={{ width:120 }} mode="vertical">
+              <Menu  style={{ width:120 }} mode="horizontal"  >
               <SubMenu key="sub1" icon={<MoreOutlined style={{ fontSize: '20px', color: 'blue' }} />} title="">
                 <Menu.ItemGroup>
                   <Menu.Item key="1">
